@@ -43,7 +43,7 @@
     }]];
     for(NSArray* eachArray in holderArray){
         NSMutableString* stringHolder = [[NSMutableString alloc] init];
-        int stringSize = eachArray.count;
+        int stringSize = (int)eachArray.count;
         for(NSString* eachStringArray in eachArray){
             if(stringSize>1){
                 [stringHolder appendString:[NSString stringWithFormat:@"%@,",eachStringArray]];
