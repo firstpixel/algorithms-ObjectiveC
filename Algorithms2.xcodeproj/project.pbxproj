@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC1C618D1E92F8F4002B9DE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C618C1E92F8F4002B9DE8 /* main.m */; };
+		CC1C61941E92F97B002B9DE8 /* StackQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C61931E92F97B002B9DE8 /* StackQueue.m */; };
+		CC1C61981E92FC12002B9DE8 /* ArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C61971E92FC12002B9DE8 /* ArrayTest.m */; };
+		CC1C619B1E931615002B9DE8 /* StringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C619A1E931615002B9DE8 /* StringTest.m */; };
+		CC1C619E1E93274E002B9DE8 /* RectangleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C619D1E93274E002B9DE8 /* RectangleTest.m */; };
+		CC1C61A11E932B7E002B9DE8 /* ArraySum.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C61A01E932B7E002B9DE8 /* ArraySum.m */; };
+		CC1C61A41E933311002B9DE8 /* AnagramTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C61A31E933311002B9DE8 /* AnagramTest.m */; };
+		CC3F205F1EAD5C200058F192 /* DijkstraNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3F205E1EAD5C200058F192 /* DijkstraNode.m */; };
+		CC3F20621EAD5D6B0058F192 /* DijkstraEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3F20611EAD5D6B0058F192 /* DijkstraEdge.m */; };
+		CC3F20651EAD61D40058F192 /* DijkstraGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3F20641EAD61D40058F192 /* DijkstraGraph.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC1C61871E92F8F4002B9DE8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC1C61891E92F8F4002B9DE8 /* Algorithms2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms2; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1C618C1E92F8F4002B9DE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC1C61931E92F97B002B9DE8 /* StackQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackQueue.m; sourceTree = "<group>"; };
+		CC1C61951E92FAC9002B9DE8 /* StackQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackQueue.h; sourceTree = "<group>"; };
+		CC1C61961E92FC12002B9DE8 /* ArrayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayTest.h; sourceTree = "<group>"; };
+		CC1C61971E92FC12002B9DE8 /* ArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayTest.m; sourceTree = "<group>"; };
+		CC1C61991E931615002B9DE8 /* StringTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringTest.h; sourceTree = "<group>"; };
+		CC1C619A1E931615002B9DE8 /* StringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringTest.m; sourceTree = "<group>"; };
+		CC1C619C1E93274E002B9DE8 /* RectangleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleTest.h; sourceTree = "<group>"; };
+		CC1C619D1E93274E002B9DE8 /* RectangleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleTest.m; sourceTree = "<group>"; };
+		CC1C619F1E932B7E002B9DE8 /* ArraySum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArraySum.h; sourceTree = "<group>"; };
+		CC1C61A01E932B7E002B9DE8 /* ArraySum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArraySum.m; sourceTree = "<group>"; };
+		CC1C61A21E933311002B9DE8 /* AnagramTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnagramTest.h; sourceTree = "<group>"; };
+		CC1C61A31E933311002B9DE8 /* AnagramTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnagramTest.m; sourceTree = "<group>"; };
+		CC3F205D1EAD5C200058F192 /* DijkstraNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DijkstraNode.h; sourceTree = "<group>"; };
+		CC3F205E1EAD5C200058F192 /* DijkstraNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DijkstraNode.m; sourceTree = "<group>"; };
+		CC3F20601EAD5D6B0058F192 /* DijkstraEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DijkstraEdge.h; sourceTree = "<group>"; };
+		CC3F20611EAD5D6B0058F192 /* DijkstraEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DijkstraEdge.m; sourceTree = "<group>"; };
+		CC3F20631EAD61D40058F192 /* DijkstraGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DijkstraGraph.h; sourceTree = "<group>"; };
+		CC3F20641EAD61D40058F192 /* DijkstraGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DijkstraGraph.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC1C61861E92F8F4002B9DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC1C61801E92F8F4002B9DE8 = {
+			isa = PBXGroup;
+			children = (
+				CC1C618B1E92F8F4002B9DE8 /* Algorithms2 */,
+				CC1C618A1E92F8F4002B9DE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC1C618A1E92F8F4002B9DE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C61891E92F8F4002B9DE8 /* Algorithms2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC1C618B1E92F8F4002B9DE8 /* Algorithms2 */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C618C1E92F8F4002B9DE8 /* main.m */,
+				CC1C61951E92FAC9002B9DE8 /* StackQueue.h */,
+				CC1C61931E92F97B002B9DE8 /* StackQueue.m */,
+				CC1C61961E92FC12002B9DE8 /* ArrayTest.h */,
+				CC1C61971E92FC12002B9DE8 /* ArrayTest.m */,
+				CC1C61991E931615002B9DE8 /* StringTest.h */,
+				CC1C619A1E931615002B9DE8 /* StringTest.m */,
+				CC1C619C1E93274E002B9DE8 /* RectangleTest.h */,
+				CC1C619D1E93274E002B9DE8 /* RectangleTest.m */,
+				CC1C619F1E932B7E002B9DE8 /* ArraySum.h */,
+				CC1C61A01E932B7E002B9DE8 /* ArraySum.m */,
+				CC1C61A21E933311002B9DE8 /* AnagramTest.h */,
+				CC1C61A31E933311002B9DE8 /* AnagramTest.m */,
+				CC3F205D1EAD5C200058F192 /* DijkstraNode.h */,
+				CC3F205E1EAD5C200058F192 /* DijkstraNode.m */,
+				CC3F20601EAD5D6B0058F192 /* DijkstraEdge.h */,
+				CC3F20611EAD5D6B0058F192 /* DijkstraEdge.m */,
+				CC3F20631EAD61D40058F192 /* DijkstraGraph.h */,
+				CC3F20641EAD61D40058F192 /* DijkstraGraph.m */,
+			);
+			path = Algorithms2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC1C61881E92F8F4002B9DE8 /* Algorithms2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1C61901E92F8F4002B9DE8 /* Build configuration list for PBXNativeTarget "Algorithms2" */;
+			buildPhases = (
+				CC1C61851E92F8F4002B9DE8 /* Sources */,
+				CC1C61861E92F8F4002B9DE8 /* Frameworks */,
+				CC1C61871E92F8F4002B9DE8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Algorithms2;
+			productName = Algorithms2;
+			productReference = CC1C61891E92F8F4002B9DE8 /* Algorithms2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC1C61811E92F8F4002B9DE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Gil Beyruth";
+				TargetAttributes = {
+					CC1C61881E92F8F4002B9DE8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YKYWBWFXE6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC1C61841E92F8F4002B9DE8 /* Build configuration list for PBXProject "Algorithms2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC1C61801E92F8F4002B9DE8;
+			productRefGroup = CC1C618A1E92F8F4002B9DE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC1C61881E92F8F4002B9DE8 /* Algorithms2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC1C61851E92F8F4002B9DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3F20651EAD61D40058F192 /* DijkstraGraph.m in Sources */,
+				CC1C619E1E93274E002B9DE8 /* RectangleTest.m in Sources */,
+				CC1C61A11E932B7E002B9DE8 /* ArraySum.m in Sources */,
+				CC3F20621EAD5D6B0058F192 /* DijkstraEdge.m in Sources */,
+				CC1C61981E92FC12002B9DE8 /* ArrayTest.m in Sources */,
+				CC1C61941E92F97B002B9DE8 /* StackQueue.m in Sources */,
+				CC1C619B1E931615002B9DE8 /* StringTest.m in Sources */,
+				CC1C61A41E933311002B9DE8 /* AnagramTest.m in Sources */,
+				CC1C618D1E92F8F4002B9DE8 /* main.m in Sources */,
+				CC3F205F1EAD5C200058F192 /* DijkstraNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC1C618E1E92F8F4002B9DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC1C618F1E92F8F4002B9DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC1C61911E92F8F4002B9DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YKYWBWFXE6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC1C61921E92F8F4002B9DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YKYWBWFXE6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC1C61841E92F8F4002B9DE8 /* Build configuration list for PBXProject "Algorithms2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1C618E1E92F8F4002B9DE8 /* Debug */,
+				CC1C618F1E92F8F4002B9DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1C61901E92F8F4002B9DE8 /* Build configuration list for PBXNativeTarget "Algorithms2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1C61911E92F8F4002B9DE8 /* Debug */,
+				CC1C61921E92F8F4002B9DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC1C61811E92F8F4002B9DE8 /* Project object */;
+}
