@@ -97,6 +97,14 @@
 				CC1C61A01E932B7E002B9DE8 /* ArraySum.m */,
 				CC1C61A21E933311002B9DE8 /* AnagramTest.h */,
 				CC1C61A31E933311002B9DE8 /* AnagramTest.m */,
+				CC3F20661EAE96C20058F192 /* Dijkstra */,
+			);
+			path = Algorithms2;
+			sourceTree = "<group>";
+		};
+		CC3F20661EAE96C20058F192 /* Dijkstra */ = {
+			isa = PBXGroup;
+			children = (
 				CC3F205D1EAD5C200058F192 /* DijkstraNode.h */,
 				CC3F205E1EAD5C200058F192 /* DijkstraNode.m */,
 				CC3F20601EAD5D6B0058F192 /* DijkstraEdge.h */,
@@ -104,7 +112,7 @@
 				CC3F20631EAD61D40058F192 /* DijkstraGraph.h */,
 				CC3F20641EAD61D40058F192 /* DijkstraGraph.m */,
 			);
-			path = Algorithms2;
+			name = Dijkstra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

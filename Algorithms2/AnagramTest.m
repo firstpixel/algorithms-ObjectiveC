@@ -14,6 +14,8 @@
 
 -(void)initAnagramTest{
     stringArray = [[NSMutableArray alloc] initWithObjects:@"pear",@"dormitory",@"tinsel",@"dirty room",@"hamlet",@"listen",@"silnet",@"amleth", nil];
+    
+    
     NSMutableArray* finalArray = [[NSMutableArray alloc] init];
     NSMutableArray* holderArray = [[NSMutableArray alloc] init];
     int i=0;
