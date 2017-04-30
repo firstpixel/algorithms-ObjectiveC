@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC1C618D1E92F8F4002B9DE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C618C1E92F8F4002B9DE8 /* main.m */; };
 		CC1C61941E92F97B002B9DE8 /* StackQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C61931E92F97B002B9DE8 /* StackQueue.m */; };
 		CC1C61981E92FC12002B9DE8 /* ArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C61971E92FC12002B9DE8 /* ArrayTest.m */; };
 		CC1C619B1E931615002B9DE8 /* StringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C619A1E931615002B9DE8 /* StringTest.m */; };
@@ -17,6 +16,8 @@
 		CC3F205F1EAD5C200058F192 /* DijkstraNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3F205E1EAD5C200058F192 /* DijkstraNode.m */; };
 		CC3F20621EAD5D6B0058F192 /* DijkstraEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3F20611EAD5D6B0058F192 /* DijkstraEdge.m */; };
 		CC3F20651EAD61D40058F192 /* DijkstraGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3F20641EAD61D40058F192 /* DijkstraGraph.m */; };
+		CC5CDBF81EB167CE003A0F1A /* SolutionClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5CDBF71EB167CE003A0F1A /* SolutionClass.m */; };
+		CC5CDBFA1EB16A3D003A0F1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5CDBF91EB16A3D003A0F1A /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		CC1C61891E92F8F4002B9DE8 /* Algorithms2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms2; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC1C618C1E92F8F4002B9DE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC1C61931E92F97B002B9DE8 /* StackQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackQueue.m; sourceTree = "<group>"; };
 		CC1C61951E92FAC9002B9DE8 /* StackQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackQueue.h; sourceTree = "<group>"; };
 		CC1C61961E92FC12002B9DE8 /* ArrayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayTest.h; sourceTree = "<group>"; };
@@ -52,6 +52,9 @@
 		CC3F20611EAD5D6B0058F192 /* DijkstraEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DijkstraEdge.m; sourceTree = "<group>"; };
 		CC3F20631EAD61D40058F192 /* DijkstraGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DijkstraGraph.h; sourceTree = "<group>"; };
 		CC3F20641EAD61D40058F192 /* DijkstraGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DijkstraGraph.m; sourceTree = "<group>"; };
+		CC5CDBF61EB167CE003A0F1A /* SolutionClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolutionClass.h; sourceTree = "<group>"; };
+		CC5CDBF71EB167CE003A0F1A /* SolutionClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolutionClass.m; sourceTree = "<group>"; };
+		CC5CDBF91EB16A3D003A0F1A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +87,7 @@
 		CC1C618B1E92F8F4002B9DE8 /* Algorithms2 */ = {
 			isa = PBXGroup;
 			children = (
-				CC1C618C1E92F8F4002B9DE8 /* main.m */,
+				CC5CDBF91EB16A3D003A0F1A /* main.m */,
 				CC1C61951E92FAC9002B9DE8 /* StackQueue.h */,
 				CC1C61931E92F97B002B9DE8 /* StackQueue.m */,
 				CC1C61961E92FC12002B9DE8 /* ArrayTest.h */,
@@ -98,6 +101,8 @@
 				CC1C61A21E933311002B9DE8 /* AnagramTest.h */,
 				CC1C61A31E933311002B9DE8 /* AnagramTest.m */,
 				CC3F20661EAE96C20058F192 /* Dijkstra */,
+				CC5CDBF61EB167CE003A0F1A /* SolutionClass.h */,
+				CC5CDBF71EB167CE003A0F1A /* SolutionClass.m */,
 			);
 			path = Algorithms2;
 			sourceTree = "<group>";
@@ -181,7 +186,8 @@
 				CC1C61941E92F97B002B9DE8 /* StackQueue.m in Sources */,
 				CC1C619B1E931615002B9DE8 /* StringTest.m in Sources */,
 				CC1C61A41E933311002B9DE8 /* AnagramTest.m in Sources */,
-				CC1C618D1E92F8F4002B9DE8 /* main.m in Sources */,
+				CC5CDBF81EB167CE003A0F1A /* SolutionClass.m in Sources */,
+				CC5CDBFA1EB16A3D003A0F1A /* main.m in Sources */,
 				CC3F205F1EAD5C200058F192 /* DijkstraNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,10 +13,10 @@
 #import "RectangleTest.h"
 #import "ArraySum.h"
 #import "AnagramTest.h"
-#import "DijkstraNode.h"
-#import "DijkstraEdge.h"
-#import "DijkstraGraph.h"
-
+//#import "DijkstraNode.h"
+//#import "DijkstraEdge.h"
+//#import "DijkstraGraph.h"
+#import "SolutionClass.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -42,7 +42,7 @@ int main(int argc, const char * argv[]) {
         //AnagramTest* stringAnagram = [AnagramTest new];
         //[stringAnagram initAnagramTest];
         
-        NSMutableArray* edges = [NSMutableArray arrayWithCapacity:14];
+      /*  NSMutableArray* edges = [NSMutableArray arrayWithCapacity:14];
         [edges addObject:[[DijkstraEdge alloc] initEdgeFromNodeIndex:0 toNodeIndex:2 length:1]];
         [edges addObject:[[DijkstraEdge alloc] initEdgeFromNodeIndex:0 toNodeIndex:3 length:4]];
         [edges addObject:[[DijkstraEdge alloc] initEdgeFromNodeIndex:0 toNodeIndex:4 length:2]];
@@ -61,6 +61,33 @@ int main(int argc, const char * argv[]) {
         DijkstraGraph* g = [[DijkstraGraph alloc] initGraphWithEdges:edges];
         [g calculateShortestDistanceFromSource:1];
         [g printResult];
+        
+        */
+       /* NSNumber* empty = [NSNumber numberWithInt:-1];
+        NSNumber* _requiredSeats = [NSNumber numberWithInt:3];
+        NSArray *_seatPrices = [[NSArray alloc] initWithObjects:
+                                [[NSArray alloc] initWithObjects:@-1,@42,@13,@17,@23,nil],
+                                [[NSArray alloc] initWithObjects:@11,@12,@-1,@10,@10,nil],
+                                [[NSArray alloc] initWithObjects:@16,@17,@10,@11,@19,nil],
+                                nil];
+        NSNumber* res;
+        res = [[[SolutionClass alloc] init] getMinPrice:_requiredSeats joinArg2:_seatPrices];
+        NSLog(@"%@",res);
+        */
+        
+        NSArray* _input = [[NSArray alloc] initWithObjects:
+                             [[NSArray alloc] initWithObjects:@"a",@"b",nil],
+                           [[NSArray alloc] initWithObjects:@"b",@"a",nil],
+                           [[NSArray alloc] initWithObjects:@"a",@"b",nil],
+                             nil];
+
+        
+        //NSNumber* res;
+        //res = [[[SolutionClass alloc] init] solve:_input];
+        
+        NSString* res;
+        res = [[[SolutionClass alloc] init] isWeird:24];
+        NSLog(@"%@",res);
         
     }
     return 0;
