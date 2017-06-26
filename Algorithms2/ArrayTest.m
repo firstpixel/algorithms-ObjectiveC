@@ -19,9 +19,6 @@
     NSLog(@"ARRAY LEFT :%@",arrayShift);
     [self shiftRight:3];
     NSLog(@"ARRAY RIGHT:%@",arrayShift);
-    
-    
-    
 }
 
 
@@ -41,7 +38,6 @@
     int n = (int)arrayShift.count;
     for(int i=0; i<n; i++){
         id obj = [arrayShift objectAtIndex:i];
-       // [arrayShift removeObject:obj];
         [arrayShift insertObject:obj atIndex:((i+k)%n)];
     }
     
@@ -49,4 +45,29 @@
 }
 
 
+-(void)rotateArrayLeft:(NSArray*)array withPositions:(int)k {
+    
+    int n = (int)array.count;
+    NSMutableArray* newArray = [NSMutableArray arrayWithArray:array];
+    
+    for(int i=0; i<n; i++){
+        NSNumber* num = [array objectAtIndex:i];
+        NSLog(@"%i : %i",(i+n-k)%n, [num intValue]);
+        
+        [newArray replaceObjectAtIndex:(int)(i+n-k)%n withObject:num];
+        
+    }
+    for(int j=0; j<newArray.count; j++){
+        printf("%i ",[[newArray objectAtIndex:j] intValue]);
+        NSLog(@"%i",j);
+    }
+}
+
 @end
+
+
+
+
+
+
+

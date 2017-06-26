@@ -17,6 +17,7 @@
 //#import "DijkstraEdge.h"
 //#import "DijkstraGraph.h"
 #import "SolutionClass.h"
+#import "AppleStock.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -88,6 +89,18 @@ int main(int argc, const char * argv[]) {
         NSString* res;
         res = [[[SolutionClass alloc] init] isWeird:24];
         NSLog(@"%@",res);
+        
+        
+        
+        int res1;
+        NSArray* stockPricesYesterday = [[NSArray alloc] initWithObjects:@10, @7, @5, @8, @11, @9,nil];
+        res1 = [[[AppleStock alloc] init] getMaxProfit:stockPricesYesterday];
+        NSLog(@"%i",res1);
+
+        
+        NSMutableArray* arrayShift = [[NSMutableArray alloc] initWithObjects:@1,@2,@3,@4,@5,nil];
+        ArrayTest* test = [ArrayTest new];
+        [test rotateArrayLeft:arrayShift withPositions:4];
         
     }
     return 0;

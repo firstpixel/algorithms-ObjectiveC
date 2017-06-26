@@ -20,4 +20,6 @@
 -(NSArray*)shiftLeft:(int)k;
 -(NSArray*)shiftRight:(int)k;
 
+-(void)rotateArrayLeft:(NSArray*)array withPositions:(int)k;
+
 @end

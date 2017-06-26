@@ -30,7 +30,7 @@
    
     NSLog(@"QUEUE :%@ %lu",myQueueArray, (unsigned long)myQueueArray.count);
     
-     [self dequeue];
+    [self dequeue];
     [self dequeue];
     
     myStackArray = [[NSMutableArray alloc] initWithObjects:@1,@2,@3,nil];

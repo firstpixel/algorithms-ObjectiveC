@@ -51,7 +51,7 @@
     return [NSNumber numberWithLong:cheaperPrice];
 }
 
-/*
+
 -(NSNumber*)solve:(NSArray*) input {
     
     int change = 0;
@@ -82,18 +82,13 @@
             if([s1 isEqualToString:s2]){
                 change++;
             }
-            
-            
-            
         }
-        
         NSLog(@"%@", input[i]);
-        
     }
     return [NSNumber numberWithInt:change];
     
 }
-*/
+
 
 
 -(NSString*)isWeird:(int)N {

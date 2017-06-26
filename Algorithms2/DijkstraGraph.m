@@ -55,7 +55,6 @@
             noOfNodess = e.toNodeIndex;
         if(e.fromNodeIndex > noOfNodess)
             noOfNodess = e.fromNodeIndex;
-        
     }
     noOfNodess++;
     return noOfNodess;
@@ -81,7 +80,6 @@
         for(int joinedEdge = 0; joinedEdge < currentNodeEdges.count; joinedEdge++)
         {
             int neighboutIndex = (int)[[currentNodeEdges objectAtIndex:joinedEdge] getNeighbourIndex:nextNode];
-
             //only if not visited
             if(![[self.nodes objectAtIndex:neighboutIndex] isVisited])
             {
@@ -108,7 +106,6 @@
     for(int i = 0; i < nodes.count; i++)
     {
         int currentDist = [[nodes objectAtIndex:i] distanceFromSource];
-        
         if(![[nodes objectAtIndex:i] isVisited] && currentDist < storedDist)
         {
             storedDist = currentDist;
@@ -116,7 +113,6 @@
         }
     }
     return storedNodeIndex;
-    
 }
 
 
@@ -127,8 +123,7 @@
     
     for(int i = 0; i < self.nodes.count; i++)
     {
-             [output appendFormat:@"\nThe shortest distance from node %i to node %i is %i",self.source, i, [[self.nodes objectAtIndex:i] distanceFromSource] ];
-
+        [output appendFormat:@"\nThe shortest distance from node %i to node %i is %i",self.source, i, [[self.nodes objectAtIndex:i] distanceFromSource] ];
     }
     NSLog(@" %@",output);
 
